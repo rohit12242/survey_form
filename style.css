@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body{
+  background-color: hsl(180 40% 80%);
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+#title{
+  text-align: center;
+  font-size: 50px;
+}
+#container{
+  margin: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
+  background-color: hsl(0 0% 98%);
+}
+#description{
+    text-align: center;
+    padding-top: 30px;
+}
+#survey-form{
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 25px;
+  grid-column-gap: -15px;
+
+}
+#submit {
+  background-color: hsl(240 50% 80%);
+  color: white;
+  grid-column: 1/3;
+  justify-self: center;
+  padding: 15px 18px;
+  border: 0px ;
+  border-radius: 7px;
+
+}
+.align{
+  justify-self: end;
+  align-self: center;
+  padding-right: 30px;
+}
+#chebox{
+  display: grid;
+  grid-row-gap: 7px;
+}
+#radioo{
+  display: grid;
+  grid-row-gap: 7px;
+}
+.input-box {
+  justify-self: start;
+}
+#name{
+  width: 250px;
+  height: 23px;
+}
+#email{
+  width: 250px;
+  height: 23px;
+}
+#number{
+  width: 250px;
+  height: 23px;
+}
+#dropdown{
+  width: 23%;
+  height: 35px;
+  border: 0px;
+  border-radius: 5px;
+}
+.drop{
+  width: 23%;
+  height: 35px;
+  border: 0px;
+  border-radius: 5px;
+}
+#checklabel{
+  display: grid;
+  grid-template-rows: 20px 20px;
+  align-self: start;
+  padding-top: -2px;
+  grid-row-gap: 0px;
+  margin-top: -13px;
+}
+#radi{
+  display: grid;
+  grid-template-rows: 20px 20px;
+  align-self: start;
+  padding-top: -2px;
+  grid-row-gap: 0px;
+  margin-top: -13px;
+}
+#jan{
+  justify-self: end;
+}
+#chebox{
+
+}
+#feb{
+  justify-self: end;
+}
+#radioo{
+}
+#textarea{
+  width: 250px;
+}
+#mar{
+  align-self: start;
+  padding-top: 2px;
+}
+#description{
+  font-size: 18px;
+}

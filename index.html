@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="./style.css"></link>
+  </head>
+  <body>
+    <div id="main">
+      <h1 id="title">Survey Form</h1>
+      <div id="container">
+        <p id="description">Let us know how we can improve FreeCodeCamp</p>
+        <form id="survey-form" action="submit" method="post">
+          <label for="name" id="name-label" class="align">* Name:  </label>
+          <input type="text" id="name" class="input-box" name="name" placeholder="Enter the name" required>
+          <label for="email" id="email-label" class="align">* Email: </label>
+          <input type="email" id="email" class="input-box" name="email" placeholder="Enter Your Email" required >
+          <label for="age" id="number-label" class="align">* Age: </label>
+          <input type="number" id="number" class="input-box" name="age" placeholder="Enter Your Age" min="15" max="55">
+          <label for="dropdown" class="align">Which option best describes your current role?</label>
+          <select id="dropdown" name="dropdown">
+            <option value="" disabled>select an option</option>
+            <option value="" >Student</option>
+            <option value="">Full time Job</option>
+            <option value="">Full Time Learner</option>
+            <option value="">Prefer Not To Say</option>
+            <option value="">Other</option>
+          </select>
+          <div class="align" id="radi"><p>* How likely is that you would recommend </p> <p id="feb">freeCodeCamp to a friend?</p></div>
+          <div id="radioo">
+            <label for="radio"><input type="radio" name="radio" value="">Definietly</input></label>
+            <label for="radio"><input type="radio" name="radio" value="">Maybe</input></label>
+            <label for="radio"><input type="radio" name="radio" value="">Not Sure</input></label>
+          </div>
+          <label for="dropdowna" class="align">What you like about fcc</label>
+          <select class="drop" name="dropdowna">
+            <option value="" disabled>select an option</option>
+            <option value="">challenges</option>
+            <option value="">projects</option>
+            <option value="">community</option>
+            <option value="">open source</option>
+          </select>
+          <div class="align" id="checklabel"><p  >Things that should be improved in the future </p>
+              <p id="jan" >(Check all that apply):</p></div>
+          <div id="chebox">
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Front-end Projects</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Back-end Projects</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Data Visualization</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Challenges</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Open Source Community</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Gitter help rooms</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Videos</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">City Meetups</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Wik</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Forum</input></label>
+            <label for="checkbox"><input type="checkbox" name="checkbox" value="">Additional Courses</input></label>
+          </div>
+          <label for="textarea" class="align" id="mar">Any comment or suggestion  </label>
+          <textarea name="textarea" rows="4" cols="20" placeholder="Enter your suggestions" id="textarea"></textarea>
+          <button type="submit" id="submit" name="button">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
